@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# IDE and OS
+.vscode/
+.DS_Store
+
+# Go Modules
+vendor/
