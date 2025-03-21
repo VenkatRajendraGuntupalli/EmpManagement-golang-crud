@@ -45,7 +45,9 @@ orgmanager/
 ├── go.mod                    # Go module definition
 ├── go.sum                    # Go dependencies checksum
 └── README.md                 # This file
+```
 
+---
 
 ## 📌 API Endpoints
 
@@ -57,19 +59,24 @@ orgmanager/
 | PUT    | `/employees/{id}`  | Update employee by ID |
 | DELETE | `/employees/{id}`  | Delete employee by ID |
 
+---
 ## 💡 How to Run Locally
 
 ### Clone the repository:
 ```bash
 git clone https://github.com/VenkatRajendraGuntupalli/EmpManagement-golang-crud.git
 cd EmpManagement-golang-crud
-
+```
 ## Initialize Go modules:
+```bash
 go mod tidy
-
+```
 ## Run the app:
+```bash
 go run main.go
-
+```
 ## Test the API:
 Use Postman or cURL
+```bash
 Server runs at: http://localhost:8080
+```
